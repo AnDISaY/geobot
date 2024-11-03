@@ -8,7 +8,7 @@ from decouple import config
 import pytz
 import datetime
 
-from database_connect import add_manager, add_employee, add_team, add_place, get_manager, get_managers
+from psql_connect import add_manager, add_employee, add_team, add_place, get_manager, get_managers
 from geo import check_location
 from sheets_func import check_attendance
 

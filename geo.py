@@ -1,5 +1,5 @@
 from shapely.geometry import Polygon, Point 
-from database_connect import get_places, add_place
+from psql_connect import get_places, add_place
  
 
 def check_location(location):

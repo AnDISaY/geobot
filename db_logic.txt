@@ -7,13 +7,13 @@ CREATE TABLE team (
 )
 
 CREATE TABLE manager (
-    tg_name varchar(1000) PRIMARY KEY,
+    tg_id bigint PRIMARY KEY,
     name varchar(100),
     lastname varchar(100),
 )
 
 CREATE TABLE employee (
-    tg_name varchar(1000) PRIMARY KEY,
+    tg_id bigint PRIMARY KEY,
     name varchar(100),
     lastname varchar(100),
     team FOREIGN KEY(team),

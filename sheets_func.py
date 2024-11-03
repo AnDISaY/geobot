@@ -1,5 +1,5 @@
 from excel import initialize_sheet, add_attendance
-from database_connect import get_managers, get_employees, get_employee, get_manager_by_employee
+from psql_connect import get_managers, get_employees, get_employee, get_manager_by_employee
 import datetime
 
 
