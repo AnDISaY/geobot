@@ -1,0 +1,11 @@
+shapely
+psycopg2-binary
+python-decouple
+asyncio
+aiohttp
+pyTelegramBotAPI
+openpyxl
+aioschedule
+aiogram
+scheduler
+pytz
